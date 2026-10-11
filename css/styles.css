@@ -1,0 +1,74 @@
+/* regla universal del padding y el margin */ 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*importacion de la fuente Arimo*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*BACKGROUND*/
+body {
+    background-color: #a36fd4;
+}
+/*HEADER*/
+.headerh1{
+font-family: "Arimo", sans-serif;
+color: #0a0113;
+font-size: 50px;
+}
+/* LISTA DE MENU */
+.menunavegacion {
+    list-style: none;
+    text-decoration:none;
+    display: flex;                  /* Pone los enlaces uno al lado del otro */
+    gap: 24px;                      /* 24px de separación entre cada enlace */
+    margin: 0;
+    padding: 0;
+}
+/*MAIN*/
+h1 {
+    font-family: "Arimo", sans-serif;
+    font-size: 32px;
+    color: #383733;
+}
+h2 {
+    font-family: "Arimo", sans-serif;
+    font-size: 24px;
+    color: indigo;
+}
+p {
+    font-family: "Arimo", sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo a la izquierda, menú a la derecha */
+  align-items: center;            /* Centrados verticalmente a la misma altura */
+  padding: 16px 32px;
+  gap: 20px;
+}
+.indexcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.indexcard article {
+    border: solid 1px #000000;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+}
+.cardindex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.cardindex article {
+    border: solid 1px #000000;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+}
